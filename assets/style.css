@@ -96,29 +96,30 @@ p {
     margin: 10px;
     padding: 10px;
     font-size: 25px;
-    text-align: center;
+    text-align: left;
 }
 
-.project {
-    max-width: 500px;
-    max-height: 350px;
+.container {
+    max-width: 100%;
     display: flex;
-    justify-content: space-evenly;
-    align-content: center;
-}
-
-.work > a {
-    float: left;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-h3 {
-    display: flex;
+    padding: 20px;
+    box-sizing: border-box;
     flex-direction: row;
-    justify-content: space-evenly;
-    justify-content: center;
-    align-content: center;
+}
+
+.left, .center, .right {
+    max-width: 100%;
+    max-height: 300px;
+    flex: 1;
+    padding: 30px;
+    font-size: 25px;
+    text-align: center;
+    align-items: center;
+}
+
+img {
+    width: 25%%;
+    height: 100%;
 }
 
 footer {
